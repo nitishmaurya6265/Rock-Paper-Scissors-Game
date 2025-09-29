@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    text-align:center;
+    background-color:gray;
+    height:90px;
+    margin-top:-20px;
+    
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.box{
+
+    margin:10px;
+}
+
+.box img{
+    border-radius:50%
+}
+
+.score{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.yourScore{
+    margin-right: 80px;
+}
+
+.compScore{
+    margin-left:20px
+}
+
+.hScore{
+    background-color:rgb(233, 233, 243);
+   text-align:center;
+   width:50%;
+    margin:auto;
+
+}
+
+.result{
+   
+    text-align:center;
+    width:40%;
+    margin:auto;
+    height:30px;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:10px;
+}
