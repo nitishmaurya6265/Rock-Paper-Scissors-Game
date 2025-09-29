@@ -30,7 +30,7 @@ paper.addEventListener("click", () => {
 scissor.addEventListener("click", () => {
   yourCh = scissor.innerText;
   playRound(yourCh);
-  //   console.log(yourCh);
+
 });
 
 function playRound(user) {
